@@ -11,12 +11,12 @@ $fname=$_REQUEST["fname"];
 $lname=$_REQUEST["lname"];
 
 $email=$_REQUEST["email"];
-if(empty($_REQUEST["fname"]) || (strlen($_REQUEST["fname"])<3))
+if(empty($_REQUEST["fname"]) || (strlen($_REQUEST["fname"])<5))
 {
     $validatename= "you must enter first name";
 
 }
-elseif(empty($_REQUEST["lname"]) || (strlen($_REQUEST["lname"])<3))
+elseif(empty($_REQUEST["lname"]) || (strlen($_REQUEST["lname"])<5))
 {
     $validatename= "you must enter last name";
 
