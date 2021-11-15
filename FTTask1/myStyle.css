@@ -1,0 +1,54 @@
+
+.top {
+    text-align: center;
+    background: aqua;
+    padding: 41px;
+}
+.top h4{
+    color: blue;
+}
+.menu{
+    background: purple;
+    padding-left: 20px;
+    display: flex;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+.registrationForm{
+    background: silver;
+}
+
+.registrationForm h2 {
+    padding: 20px;
+    background: aliceblue;
+}
+
+.registrationForm form div{
+    background: yellow;
+}
+
+.registrationForm input[type=text]{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.registrationForm label {
+  padding: 10px 10px 10px 0;
+  display: inline-block;
+}
+
+.registrationForm input[type=submit],input[type=reset] {
+  background-color: blue;
+  padding: 10px;
+  margin: 5px;
+  border-bottom: 1px solid #000000;
+  border-radius: 5px;
+}
